@@ -10,7 +10,8 @@ function compareArrays(arr1,arr2){
     }
 }
 
-//function to check if input value is palindrome or not by dividing this input by two as array. Then reversing second array and compare with first one in other function.
+//function to check if input value is palindrome or not by dividing this input by two as array. Then reversing second array and compare
+//with first one in other function.
 function isPolindrome(p){
 let arr = (""+p).split("");
   if(arr.length===1){
@@ -32,7 +33,8 @@ let arr = (""+p).split("");
   }
 }
 
-//creating two variables to multiply different iterations to each other starting from 91++++ and 99---- and then compare them and stuff in other function. Returning expected result.
+//creating two variables to multiply different iterations to each other starting from 91++++ and 99---- and then compare them 
+//and stuff in other function. Returning expected result.
 function largestPalindromeProduct(n) {
   let nines =9;
   let zeroes = 91;
