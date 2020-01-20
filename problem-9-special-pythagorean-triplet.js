@@ -1,6 +1,4 @@
 function specialPythagoreanTriplet(n) {
- let sumOfabc = n;
-
  let c = 0;
  let result = 0;
  for(let a=0;a<n;a++){
